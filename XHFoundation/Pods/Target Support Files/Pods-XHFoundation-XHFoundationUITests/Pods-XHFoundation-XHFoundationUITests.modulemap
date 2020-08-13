@@ -1,0 +1,6 @@
+framework module Pods_XHFoundation_XHFoundationUITests {
+  umbrella header "Pods-XHFoundation-XHFoundationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
