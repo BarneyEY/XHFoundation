@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,16 @@
 		D50B533224E53B6F00E12747 /* XHFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B533124E53B6F00E12747 /* XHFoundationTests.swift */; };
 		D50B533D24E53B6F00E12747 /* XHFoundationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B533C24E53B6F00E12747 /* XHFoundationUITests.swift */; };
 		D50B534C24E540C000E12747 /* XHFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D50B534B24E540BF00E12747 /* XHFoundation.podspec */; };
+		D54E089424E798FB00B97F68 /* XHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E089324E798FB00B97F68 /* XHViewController.swift */; };
+		D54E089624E79D5000B97F68 /* XHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E089524E79D5000B97F68 /* XHTabBarViewController.swift */; };
+		D54E089A24E79DF700B97F68 /* XHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E089924E79DF700B97F68 /* XHNavigationController.swift */; };
+		D54E089C24E79E5000B97F68 /* XHTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E089B24E79E5000B97F68 /* XHTableViewController.swift */; };
+		D54E089E24E79EAC00B97F68 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E089D24E79EAC00B97F68 /* TabbarController.swift */; };
+		D54E08A224E7B46400B97F68 /* QMUIConfigurationTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E08A124E7B46400B97F68 /* QMUIConfigurationTemplate.swift */; };
+		D54E08A524E7CD6600B97F68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E08A424E7CD6600B97F68 /* HomeViewController.swift */; };
+		D54E08A724E7CD7100B97F68 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E08A624E7CD7100B97F68 /* MineViewController.swift */; };
+		D54E08A924E8212200B97F68 /* HomeSubOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E08A824E8212200B97F68 /* HomeSubOneViewController.swift */; };
+		D54E08AB24E8213400B97F68 /* HomeSubTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E08AA24E8213400B97F68 /* HomeSubTwoViewController.swift */; };
 		EA162941C87F58BBD47C1B74 /* Pods_XHFoundation_XHFoundationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4CD9771A6EEC3CC80D67EC /* Pods_XHFoundation_XHFoundationUITests.framework */; };
 		FE6BFC22B4757D24D29B84E2 /* Pods_XHFoundationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19503B1512BC7BA343AD68C1 /* Pods_XHFoundationTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,7 +72,17 @@
 		D50B533824E53B6F00E12747 /* XHFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50B533C24E53B6F00E12747 /* XHFoundationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHFoundationUITests.swift; sourceTree = "<group>"; };
 		D50B533E24E53B6F00E12747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D50B534B24E540BF00E12747 /* XHFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = XHFoundation.podspec; sourceTree = SOURCE_ROOT; };
+		D50B534B24E540BF00E12747 /* XHFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = XHFoundation.podspec; path = XHFoundation/Resource/XHFoundation.podspec; sourceTree = SOURCE_ROOT; };
+		D54E089324E798FB00B97F68 /* XHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHViewController.swift; sourceTree = "<group>"; };
+		D54E089524E79D5000B97F68 /* XHTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHTabBarViewController.swift; sourceTree = "<group>"; };
+		D54E089924E79DF700B97F68 /* XHNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHNavigationController.swift; sourceTree = "<group>"; };
+		D54E089B24E79E5000B97F68 /* XHTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHTableViewController.swift; sourceTree = "<group>"; };
+		D54E089D24E79EAC00B97F68 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabbarController.swift; path = ../TabbarController.swift; sourceTree = "<group>"; };
+		D54E08A124E7B46400B97F68 /* QMUIConfigurationTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMUIConfigurationTemplate.swift; sourceTree = "<group>"; };
+		D54E08A424E7CD6600B97F68 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D54E08A624E7CD7100B97F68 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		D54E08A824E8212200B97F68 /* HomeSubOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSubOneViewController.swift; sourceTree = "<group>"; };
+		D54E08AA24E8213400B97F68 /* HomeSubTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSubTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,14 +162,8 @@
 		D50B531924E53B6C00E12747 /* XHFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				D50B534B24E540BF00E12747 /* XHFoundation.podspec */,
-				D50B531A24E53B6C00E12747 /* AppDelegate.swift */,
-				D50B531C24E53B6C00E12747 /* SceneDelegate.swift */,
-				D50B531E24E53B6C00E12747 /* ViewController.swift */,
-				D50B532024E53B6C00E12747 /* Main.storyboard */,
-				D50B532324E53B6F00E12747 /* Assets.xcassets */,
-				D50B532524E53B6F00E12747 /* LaunchScreen.storyboard */,
-				D50B532824E53B6F00E12747 /* Info.plist */,
+				D54E089F24E79FB500B97F68 /* Classes */,
+				D54E08A024E79FC500B97F68 /* Resource */,
 			);
 			path = XHFoundation;
 			sourceTree = "<group>";
@@ -175,8 +189,48 @@
 		D50B534A24E53C1200E12747 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				D5F86EB724E78144001A8376 /* UIComponents */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D54E089F24E79FB500B97F68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D54E08A124E7B46400B97F68 /* QMUIConfigurationTemplate.swift */,
+				D54E089D24E79EAC00B97F68 /* TabbarController.swift */,
+				D54E08A424E7CD6600B97F68 /* HomeViewController.swift */,
+				D54E08A624E7CD7100B97F68 /* MineViewController.swift */,
+				D54E08A824E8212200B97F68 /* HomeSubOneViewController.swift */,
+				D54E08AA24E8213400B97F68 /* HomeSubTwoViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D54E08A024E79FC500B97F68 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D50B534B24E540BF00E12747 /* XHFoundation.podspec */,
+				D50B531A24E53B6C00E12747 /* AppDelegate.swift */,
+				D50B531C24E53B6C00E12747 /* SceneDelegate.swift */,
+				D50B531E24E53B6C00E12747 /* ViewController.swift */,
+				D50B532024E53B6C00E12747 /* Main.storyboard */,
+				D50B532324E53B6F00E12747 /* Assets.xcassets */,
+				D50B532524E53B6F00E12747 /* LaunchScreen.storyboard */,
+				D50B532824E53B6F00E12747 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D5F86EB724E78144001A8376 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D54E089324E798FB00B97F68 /* XHViewController.swift */,
+				D54E089B24E79E5000B97F68 /* XHTableViewController.swift */,
+				D54E089924E79DF700B97F68 /* XHNavigationController.swift */,
+				D54E089524E79D5000B97F68 /* XHTabBarViewController.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +306,7 @@
 				TargetAttributes = {
 					D50B531624E53B6C00E12747 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1130;
 					};
 					D50B532C24E53B6F00E12747 = {
 						CreatedOnToolsVersion = 11.6;
@@ -419,9 +474,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54E089424E798FB00B97F68 /* XHViewController.swift in Sources */,
+				D54E08A724E7CD7100B97F68 /* MineViewController.swift in Sources */,
+				D54E089E24E79EAC00B97F68 /* TabbarController.swift in Sources */,
 				D50B531F24E53B6C00E12747 /* ViewController.swift in Sources */,
 				D50B531B24E53B6C00E12747 /* AppDelegate.swift in Sources */,
+				D54E089C24E79E5000B97F68 /* XHTableViewController.swift in Sources */,
+				D54E08A524E7CD6600B97F68 /* HomeViewController.swift in Sources */,
 				D50B531D24E53B6C00E12747 /* SceneDelegate.swift in Sources */,
+				D54E089624E79D5000B97F68 /* XHTabBarViewController.swift in Sources */,
+				D54E08A924E8212200B97F68 /* HomeSubOneViewController.swift in Sources */,
+				D54E08AB24E8213400B97F68 /* HomeSubTwoViewController.swift in Sources */,
+				D54E089A24E79DF700B97F68 /* XHNavigationController.swift in Sources */,
+				D54E08A224E7B46400B97F68 /* QMUIConfigurationTemplate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,15 +660,18 @@
 			baseConfigurationReference = 5AC5203679151EAE72DCBDB5 /* Pods-XHFoundation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XHFoundation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				DEVELOPMENT_TEAM = 242RX7364W;
+				INFOPLIST_FILE = XHFoundation/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KA-STEM.XHFoundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -614,9 +682,11 @@
 			baseConfigurationReference = B6ED0764F80A2304B262EFA7 /* Pods-XHFoundation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XHFoundation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				DEVELOPMENT_TEAM = 242RX7364W;
+				INFOPLIST_FILE = XHFoundation/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
